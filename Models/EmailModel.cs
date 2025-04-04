@@ -15,5 +15,7 @@ namespace MyEmail.Models
         public DateTime SentAt { get; set; }
         public string Attachements {  get; set; }
         public string EmailID { get; set; }
+         public DateTime createdon { get; set; }
+
     }
 }
